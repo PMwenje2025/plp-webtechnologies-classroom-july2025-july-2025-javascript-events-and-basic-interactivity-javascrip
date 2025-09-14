@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NextGen Health Systems</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1>NextGen Health Systems</h1>
+    <p><em>Advancing health through research, technology, and empowerment</em></p>
+    <button id="themeToggle">🌙 Switch to Dark Mode</button>
+    <nav>
+      <ul>
+        <li><a href="#overview">Overview</a></li>
+        <li><a href="#who">Who We Are</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#counter">Game</a></li>
+        <li><a href="#tabs">Insights</a></li>
+        <li><a href="#resources">Resources</a></li>
+        <li><a href="#form">Join Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Overview -->
+  <section id="overview">
+    <h2>About This Hub</h2>
+    <img src="https://images.pexels.com/photos/4021775/pexels-photo-4021775.jpeg" alt="Healthcare professionals collaborating" width="100%">
+    <p>
+      The Interactive Healthcare Hub is designed as a space where healthcare, research, and education meet. 
+      The field of healthcare research is constantly evolving, driven by new challenges, emerging diseases, and 
+      innovative technologies. In this hub, we focus on integrating evidence-based practices with digital 
+      solutions that make care more efficient, equitable, and accessible. For example, digital health platforms 
+      allow patients in rural areas to connect with specialists in urban hospitals. At the same time, data-driven 
+      insights support healthcare leaders in making better decisions about resource allocation. 
+    </p>
+    <p>
+      This hub is not just about technology but also about empowerment. We believe that research is only 
+      meaningful when it is applied, and education is only powerful when it is accessible. Therefore, this 
+      platform aims to train community health workers, empower patients, and guide policy makers through 
+      interactive resources. As you explore, you’ll find tools, games, and insights designed to make learning 
+      engaging. We want you to walk away not just informed, but inspired to contribute to the advancement of 
+      healthcare in your community and beyond.
+    </p>
+  </section>
+
+  <!-- Who We Are -->
+  <section id="who">
+    <h2>Who We Are</h2>
+
+    <p>
+      NextGen Health Systems is a platform built to transform healthcare through innovation, research, 
+      and education. We believe that sustainable health systems require empowered communities, strong partnerships, 
+      and data-driven solutions. Below are the pillars that guide our work.
+    </p>
+
+    <h3>Mission</h3>
+    <p>
+      Our mission is to advance health through education, research, and technology. 
+      We aim to strengthen community health systems, build capacity, and ensure equitable 
+      access to care across diverse populations.
+    </p>
+
+    <h3>Vision</h3>
+    <p>
+      Our vision is a world where every individual, regardless of location or background, 
+      has access to quality healthcare, accurate information, and the tools to make 
+      informed health decisions.
+    </p>
+
+    <h3>Strategy</h3>
+    <p>
+      Our strategy is grounded in three approaches: community empowerment, evidence-based research, 
+      and digital health innovation. We collaborate with governments, NGOs, and private partners to 
+      scale solutions that are both practical and sustainable. Through training, research, and advocacy, 
+      we ensure our work has lasting impact.
+    </p>
+
+    <h3>Founding Story</h3>
+    <p>
+      NextGen Health Systems was founded by <strong>Pauline Mwenje</strong>, who saw the gaps in community health systems 
+      during her career in public health and project management. Determined to bridge these gaps, she 
+      established the platform with a focus on evidence, innovation, and empowerment. 
+      She partnered with <strong>Jones Obure</strong>, who now serves as Advisor and CEO, bringing his 
+      wealth of experience in leadership and organizational growth. Together, they created a team 
+      committed to advancing healthcare solutions that matter.
+    </p>
+
+    <h3>Meet Our Team</h3>
+    <ul>
+      <li><strong>Pauline Mwenje</strong> — Founder</li>
+      <li><strong>Jones Obure</strong> — Advisor & CEO</li>
+    </ul>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq">
+    <h2>❓ Frequently Asked Questions</h2>
+    <img src="https://images.pexels.com/photos/6129238/pexels-photo-6129238.jpeg" alt="Doctor consulting a patient" width="100%">
+    <div class="faq-item">
+      <h3 class="faq-question">What is healthcare research?</h3>
+      <p class="faq-answer hidden">Healthcare research generates evidence to improve health systems, policies, and patient outcomes.</p>
+    </div>
+    <div class="faq-item">
+      <h3 class="faq-question">How do digital tools help?</h3>
+      <p class="faq-answer hidden">From AI triage to mobile health apps, digital tools reduce delays, improve accuracy, and extend care to underserved populations worldwide.</p>
+    </div>
+    <div class="faq-item">
+      <h3 class="faq-question">Why is community empowerment important?</h3>
+      <p class="faq-answer hidden">Empowering communities ensures sustainability. When health workers and patients are educated, health interventions last longer and adapt better to local needs.</p>
+    </div>
+    <div class="faq-item">
+      <h3 class="faq-question">How does research inform policy?</h3>
+      <p class="faq-answer hidden">Research provides data that guides decision-makers in allocating resources, drafting regulations, and improving health services based on evidence.</p>
+    </div>
+    <div class="faq-item">
+      <h3 class="faq-question">What role does education play in healthcare?</h3>
+      <p class="faq-answer hidden">Education equips healthcare providers and patients with knowledge to prevent illness, manage diseases, and promote healthier lifestyles across populations.</p>
+    </div>
+  </section>
+
+  <!-- Counter Game -->
+  <section id="counter">
+    <h2>🎮 Button Counter Game</h2>
+    <img src="https://images.pexels.com/photos/4021772/pexels-photo-4021772.jpeg" 
+         alt="Doctor holding a stethoscope" width="100%">
+    <p>
+      Games can make learning fun, even in healthcare. This counter game encourages engagement and demonstrates 
+      how simple interactions can be built with JavaScript. Imagine replacing this with a quiz or health-related 
+      challenge — suddenly, education becomes playful yet powerful. Such tools can be used to reinforce knowledge 
+      among community health workers or train medical students in core concepts through repetition.
+    </p>
+    <p>Current score: <span id="counterValue">0</span></p>
+    <button id="counterBtn">Click Me!</button>
+    <button id="resetBtn">Reset</button>
+  </section>
+
+  <!-- Insights (Tabbed) -->
+  <section id="tabs">
+    <h2>📊 Key Insights</h2>
+    <img src="https://images.pexels.com/photos/3952235/pexels-photo-3952235.jpeg" alt="Healthcare data analysis" width="100%">
+    <div class="tab-buttons">
+      <button class="tab-btn active" data-tab="tab1">Digital Health</button>
+      <button class="tab-btn" data-tab="tab2">Community Health</button>
+      <button class="tab-btn" data-tab="tab3">Policy & Research</button>
+    </div>
+    <div class="tab-content">
+      <div class="tab-panel" id="tab1">💻 Digital health leverages technology to enhance service delivery...</div>
+      <div class="tab-panel hidden" id="tab2">🏥 Community health is the backbone of sustainable systems...</div>
+      <div class="tab-panel hidden" id="tab3">📑 Policy and research shape the environment in which healthcare operates...</div>
+    </div>
+  </section>
+
+  <!-- Where We Work -->
+  <section id="work">
+    <h2>🌍 Where We Work</h2>
+    <p>We work across East Africa, partnering with communities in Kenya, Uganda, Tanzania, and Rwanda. 
+    Our projects focus on rural health, urban slum health innovations, and cross-border disease 
+    surveillance. By embedding ourselves within local health systems, we ensure our work is context-specific 
+    and sustainable.</p>
+  </section>
+
+  <!-- New Programs -->
+  <section id="programs">
+    <h2>🚀 New Programs</h2>
+    <p>Our latest programs include mobile health solutions for maternal health, nutrition education campaigns, 
+    and AI-powered triage systems for emergency services. Each initiative is designed to respond to pressing 
+    health needs and adapt as challenges evolve.</p>
+  </section>
+
+  <!-- Our Publications -->
+  <section id="publications">
+    <h2>📚 Our Publications</h2>
+    <p>We publish research briefs, policy papers, and case studies that inform decision-makers and practitioners. 
+    Explore our growing library of evidence-based insights, with upcoming publications on digital health 
+    adoption, nutrition interventions, and health financing.</p>
+  </section>
+
+  <!-- Resources -->
+  <section id="resources">
+    <h2>📖 Resources</h2>
+    <img src="https://images.pexels.com/photos/7937654/pexels-photo-7937654.jpeg" alt="Healthy food" width="50%">
+    <p>Explore trusted healthcare resources:</p>
+    <ul>
+      <li><a href="https://www.health.go.ke" target="_blank">Kenya Ministry of Health</a></li>
+      <li><a href="https://www.who.int" target="_blank">World Health Organization (WHO)</a></li>
+    </ul>
+  </section>
+
+  <!-- Form -->
+  <section id="form">
+    <h2>📋 Join Our Pilot Study</h2>
+    <form id="joinForm" novalidate>
+      <label>Full Name: <input type="text" id="name" placeholder="Jane Doe"></label><br><br>
+      <label>Email: <input type="text" id="email" placeholder="jane@example.com"></label><br><br>
+      <label>Password: <input type="password" id="password" placeholder="******"></label><br><br>
+      <label>Country:
+        <select id="country">
+          <option value="">--Choose--</option>
+          <option>Kenya</option><option>Uganda</option>
+          <option>Tanzania</option><option>Rwanda</option>
+        </select>
+      </label><br><br>
+      <label><input type="checkbox" id="consent"> I agree to participate</label><br><br>
+      <button type="submit">Submit</button>
+      <p id="formMessage"></p>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <h3>Contact Us</h3>
+    <p>📞 Phone: 0727434767</p>
+    <h3>Quick Links</h3>
+    <ul>
+      <li><a href="#careers">Careers</a></li>
+      <li><a href="#resources">Resources</a></li>
+      <li><a href="#form">Contact Us</a></li>
+    </ul>
+    <h3>Our Partners</h3>
+    <p>Ultimate Network for Health Solutions Ltd</p>
+    <p>Web Design by Pauline Mwenje | &copy; 2025 Pauline Mwenje</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
