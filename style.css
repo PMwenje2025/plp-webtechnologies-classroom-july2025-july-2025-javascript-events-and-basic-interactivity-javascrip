@@ -1,0 +1,79 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background: #ffffff;   /* bright background */
+  color: #111827;        /* dark readable text */
+}
+
+header, section, footer {
+  padding: 1.5rem;
+  max-width: 900px;
+  margin: auto;
+}
+
+/* Dark mode */
+.dark-mode {
+  background: #0b1220;
+  color: #f8fafc;
+}
+
+/* Navigation */
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 0;
+  list-style: none;
+}
+nav a {
+  text-decoration: none;
+  color: #1d4ed8;   /* blue links for readability */
+}
+
+/* FAQ */
+.faq-question {
+  background: #f3f4f6;   /* light grey */
+  color: #111827;
+  padding: 0.5rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.faq-answer {
+  margin-left: 1rem;
+}
+.hidden {
+  display: none;
+}
+
+/* Counter */
+#counter button {
+  margin: 0.5rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+/* Tabs */
+.tab-buttons {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+.tab-btn {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: #f3f4f6;
+}
+.tab-btn.active {
+  background: #1d4ed8;
+  color: white;
+}
+.tab-panel {
+  background: #f9fafb;
+  padding: 1rem;
+  border-radius: 5px;
+}
